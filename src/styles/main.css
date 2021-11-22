@@ -1,0 +1,16 @@
+.indvletter {
+    margin: 15px;
+}
+
+.alllettertopic {
+    display: flex;
+}
+
+.lettertopic {
+    margin-left: 10px;
+}
+
+.input {
+    height: 100px;
+    width: 300px
+}

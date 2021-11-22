@@ -1,0 +1,116 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Maya Angelou",
+      "email": "Maya@maya.com"
+    },
+    {
+      "id": 2,
+      "name": "Margaret Peterson-Haddix",
+      "email": "Margaret@margaret.com"
+    },
+    {
+      "id": 3,
+      "name": "Tom Ford",
+      "email": "Tom@tom.com"
+    },
+    {
+      "id": 4,
+      "name": "Michael Jordan",
+      "email": "Michael@michael.com"
+    },
+    {
+      "id": 5,
+      "name": "Lebron James",
+      "email": "Lebron@lebron.com"
+    },
+    {
+      "id": 6,
+      "name": "Tom Brady",
+      "email": "Tom@tom.com"
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "name": "Business"
+    },
+    {
+      "id": 2,
+      "name": "Friendly"
+    },
+    {
+      "id": 3,
+      "name": "Family"
+    },
+    {
+      "id": 4,
+      "name": "Congradulations"
+    },
+    {
+      "id": 5,
+      "name": "Condolences"
+    }
+  ],
+  "letters": [
+    {
+      "authorId": 1,
+      "recipientId": 2,
+      "date": "2021-11-08",
+      "letterContent": "",
+      "id": 1
+    },
+    {
+      "authorId": 5,
+      "recipientId": 6,
+      "date": "2021-11-08",
+      "letterContent": "1234",
+      "id": 2
+    },
+    {
+      "authorId": 3,
+      "recipientId": 1,
+      "date": "2021-11-08",
+      "letterContent": "12345",
+      "id": 3
+    }
+  ],
+  "lettertopics": [
+    {
+      "topicId": 1,
+      "letterId": 1,
+      "id": 1
+    },
+    {
+      "topicId": 2,
+      "letterId": 1,
+      "id": 2
+    },
+    {
+      "topicId": 1,
+      "letterId": 2,
+      "id": 3
+    },
+    {
+      "topicId": 2,
+      "letterId": 2,
+      "id": 4
+    },
+    {
+      "topicId": 3,
+      "letterId": 3,
+      "id": 5
+    },
+    {
+      "topicId": 5,
+      "letterId": 3,
+      "id": 6
+    },
+    {
+      "topicId": 4,
+      "letterId": 3,
+      "id": 7
+    }
+  ]
+}
